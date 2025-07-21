@@ -7,3 +7,4 @@ for i in range (len(Nilai)):
         sum = sum + Nilai[i][j]
     print(sum)
     sum = sum * 0
+    
