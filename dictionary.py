@@ -1,6 +1,12 @@
-student1 ={"nama" : "ibni","asal,": "samarinda", "nilai": 90 }
-student2 ={"nama": "glenn", "asal": "samarinda", "nilai": 75}
-student3 = {"nama": "syabil", "asal": "Samarinda", "nilai": 66}
+student1 ={"nama" : "ibni",
+           "asal,": "samarinda",
+           "nilai": 90 }
+student2 ={"nama" : "glenn",
+           "asal" : "samarinda",
+           "nilai": 75}
+student3 ={"nama" : "syabil",
+           "asal" : "Samarinda",
+           "nilai": 66}
 
 students = [student1, student2, student3]
 print(students)
@@ -31,7 +37,7 @@ print(students)
 #crud - read
 print("No\tnama\tAsal\tNilai")
 for i in range(len(students)):
-    print(1+1, "\t", students[i]["nama"], "\t", students[i]["asal"], "\t", students[i]["nilai"])
+    print(i+1, "\t", students[i]["nama"], "\t", students[i]["asal"], "\t", students[i]["nilai"])
     
 print("nama\tasal\tnilai")
 for s in students:
